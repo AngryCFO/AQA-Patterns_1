@@ -3,6 +3,8 @@ Thumbs.db*
 HELP.md
 .gradle
 build/
+myfolder/*
+!myfolder/.gitkeep
 
 ### STS ###
 .apt_generated

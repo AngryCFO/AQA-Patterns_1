@@ -17,14 +17,14 @@ repositories {
 dependencies {
     // Зависимости для тестирования
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3' // Обновленная версия JUnit
-    testImplementation 'com.codeborne:selenide:6.15.0' // Обновленная версия Selenide
+    testImplementation 'com.codeborne:selenide:6.17.2' // Обновленная версия Selenide
     testImplementation 'com.github.javafaker:javafaker:1.0.2' // Версия Java Faker
     testImplementation 'io.rest-assured:rest-assured:5.3.0' // Обновленная версия Rest Assured
     testImplementation 'com.google.code.gson:gson:2.8.9' // Обновленная версия Gson
 
     // Зависимости для основного кода
-    implementation 'io.github.bonigarcia:webdrivermanager:5.6.0' // Версия WebDriverManager
-    implementation 'org.seleniumhq.selenium:selenium-java:4.9.1' // Версия Selenium
+   // implementation 'io.github.bonigarcia:webdrivermanager:5.6.0' // Версия WebDriverManager
+   //implementation 'org.seleniumhq.selenium:selenium-java:4.9.1' // Версия Selenium
 }
 
 test {

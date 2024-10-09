@@ -1,6 +1,6 @@
 package ru.netology.delivery.test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -13,9 +13,9 @@ import java.time.Duration;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 
 
 class DeliveryTest {
@@ -23,7 +23,7 @@ class DeliveryTest {
     @BeforeEach
     void setup() {
         //WebDriverManager.chromedriver().setup();
-        WebDriverManager.chromedriver().driverVersion("129.0.6668.90").setup();
+       // WebDriverManager.chromedriver().driverVersion("129.0.6668.90").setup();
         open("http://localhost:9999");
     }
 
