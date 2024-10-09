@@ -1,3 +1,4 @@
+
 [![Build status](https://ci.appveyor.com/api/projects/status/168fuaajgt7u4c40/branch/main?svg=true)](https://ci.appveyor.com/project/AngryCFO/aqa-patterns-1/branch/main)
 
 # Домашнее задание к занятию «2.3. Patterns»
