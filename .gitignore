@@ -3,8 +3,8 @@ Thumbs.db*
 HELP.md
 .gradle
 build/
-myfolder/*
-!myfolder/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
 
 ### STS ###
 .apt_generated

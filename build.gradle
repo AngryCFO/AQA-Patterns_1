@@ -22,9 +22,6 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured:5.3.0' // Обновленная версия Rest Assured
     testImplementation 'com.google.code.gson:gson:2.8.9' // Обновленная версия Gson
 
-    // Зависимости для основного кода
-   // implementation 'io.github.bonigarcia:webdrivermanager:5.6.0' // Версия WebDriverManager
-   //implementation 'org.seleniumhq.selenium:selenium-java:4.9.1' // Версия Selenium
 }
 
 test {
